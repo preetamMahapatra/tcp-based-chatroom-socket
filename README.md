@@ -4,6 +4,10 @@ i) It includs how to create a connection and connect using IP and port of server
 
 # To run this application on your local system
 * Get your system local IP and choose one port(5555)
+* if windows use 
+  ipconfig
+* if linux use
+  ifconfig
 
 
 # To run Server side script:
