@@ -25,3 +25,16 @@ change this 100 to your requered number
 
 server.listen(100)
 
+
+
+# ----------------------------------------SSL-------------------------------------------------
+
+Create server certificate:
+openssl req -new -newkey rsa:2048 -days 365 -nodes -x509 -keyout server.key -out server.crt
+Make sure to enter ‘example.com’ for the Common Name.
+
+Create client certificate:
+openssl req -new -newkey rsa:2048 -days 365 -nodes -x509 -keyout client.key -out client.crt
+
+
+
